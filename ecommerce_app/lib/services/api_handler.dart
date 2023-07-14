@@ -2,10 +2,10 @@ import 'dart:convert';
 import 'dart:developer';
 
 import 'package:http/http.dart' as http;
-import 'package:store_api_flutter_course/consts/api_consts.dart';
-import 'package:store_api_flutter_course/models/categories_model.dart';
-import 'package:store_api_flutter_course/models/products_model.dart';
-import 'package:store_api_flutter_course/models/users_model.dart';
+import 'package:Ecommerce_App/consts/api_consts.dart';
+import 'package:Ecommerce_App/models/categories_model.dart';
+import 'package:Ecommerce_App/models/products_model.dart';
+import 'package:Ecommerce_App/models/users_model.dart';
 
 class APIHandler {
   static Future<List<dynamic>> getData(

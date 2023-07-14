@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:store_api_flutter_course/models/categories_model.dart';
-import 'package:store_api_flutter_course/models/users_model.dart';
-import 'package:store_api_flutter_course/widgets/category_widget.dart';
-import 'package:store_api_flutter_course/widgets/users_widget.dart';
+import 'package:Ecommerce_App/models/users_model.dart';
+import 'package:Ecommerce_App/widgets/users_widget.dart';
 
 import '../services/api_handler.dart';
 

@@ -2,8 +2,8 @@ import 'package:fancy_shimmer_image/fancy_shimmer_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
 import 'package:provider/provider.dart';
-import 'package:store_api_flutter_course/consts/global_colors.dart';
-import 'package:store_api_flutter_course/models/categories_model.dart';
+import 'package:Ecommerce_App/consts/global_colors.dart';
+import 'package:Ecommerce_App/models/categories_model.dart';
 
 class CategoryWidget extends StatelessWidget {
   const CategoryWidget({Key? key}) : super(key: key);

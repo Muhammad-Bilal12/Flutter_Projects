@@ -2,16 +2,15 @@ import 'package:card_swiper/card_swiper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
 import 'package:page_transition/page_transition.dart';
-import 'package:store_api_flutter_course/consts/global_colors.dart';
-import 'package:store_api_flutter_course/screens/categories_screen.dart';
-import 'package:store_api_flutter_course/screens/feeds_screen.dart';
-import 'package:store_api_flutter_course/screens/users_screen.dart';
-import 'package:store_api_flutter_course/services/api_handler.dart';
+import 'package:Ecommerce_App/consts/global_colors.dart';
+import 'package:Ecommerce_App/screens/categories_screen.dart';
+import 'package:Ecommerce_App/screens/feeds_screen.dart';
+import 'package:Ecommerce_App/screens/users_screen.dart';
+import 'package:Ecommerce_App/services/api_handler.dart';
 
 import '../models/products_model.dart';
 import '../widgets/appbar_icons.dart';
 import '../widgets/feeds_grid.dart';
-import '../widgets/feeds_widget.dart';
 import '../widgets/sale_widget.dart';
 
 class HomeScreen extends StatefulWidget {

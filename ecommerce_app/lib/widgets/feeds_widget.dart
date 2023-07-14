@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:provider/provider.dart';
-import 'package:store_api_flutter_course/models/products_model.dart';
+import 'package:Ecommerce_App/models/products_model.dart';
 
 import '../consts/global_colors.dart';
 import '../screens/product_details.dart';
@@ -28,7 +28,9 @@ class FeedsWidget extends StatelessWidget {
               context,
               PageTransition(
                 type: PageTransitionType.fade,
-                child: ProductDetails(id: productsModelProvider.id.toString(),),
+                child: ProductDetails(
+                  id: productsModelProvider.id.toString(),
+                ),
               ),
             );
           },

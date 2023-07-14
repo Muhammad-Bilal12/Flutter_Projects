@@ -3,8 +3,8 @@ import 'dart:developer';
 import 'package:card_swiper/card_swiper.dart';
 import 'package:fancy_shimmer_image/fancy_shimmer_image.dart';
 import 'package:flutter/material.dart';
-import 'package:store_api_flutter_course/models/products_model.dart';
-import 'package:store_api_flutter_course/services/api_handler.dart';
+import 'package:Ecommerce_App/models/products_model.dart';
+import 'package:Ecommerce_App/services/api_handler.dart';
 
 import '../consts/global_colors.dart';
 
