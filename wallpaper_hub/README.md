@@ -1,16 +1,57 @@
-# wallpaper_hub
+# Wallpaper Hub
 
-A new Flutter project.
+[![Flutter](https://img.shields.io/badge/Flutter-2.2.0-blue)](https://flutter.dev/)
+[![Dart](https://img.shields.io/badge/Dart-2.13.0-blue)](https://dart.dev/)
+[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
-## Getting Started
+Welcome to Wallpaper Hub, a visually stunning wallpaper application developed using Flutter and integrated with the Pexels API.
 
-This project is a starting point for a Flutter application.
+## Key Functionalities
 
-A few resources to get you started if this is your first Flutter project:
+- Seamless integration with the Pexels API, providing access to a vast collection of high-quality wallpapers.
+- Download and set wallpapers directly on your mobile screen.
+- Efficient search functionality to find specific wallpapers based on your preferences.
+- Categorization of wallpapers for easy exploration and discovery.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+I'm proud to have developed an app that combines functionality, aesthetics, and a user-friendly experience. The Wallpaper Hub project allowed me to enhance my skills in REST API integration, data management, and creating visually appealing user interfaces.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+
+<img src="./screenshots/Screenshot 2023-07-17 023752.png" height=300>
+<img src="./screenshots/Screenshot 2023-07-17 023752.png" height=300>
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/YourUsername/Wallpaper_Hub.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd Wallpaper_Hub
+```
+
+3. Install dependencies:
+
+```bash
+flutter pub get
+```
+
+4. Run the app:
+
+```bash
+flutter run
+```
+
+Make sure you have Flutter and Dart installed on your machine.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Download
+
+<a href="./screenshots/wallpaper_hub.apk" download><img src="https://static.playrummy.com/assets/img/apk_btn.png" alt="Google Play Store" width="200"></a>
